@@ -1,0 +1,7 @@
+{
+  "name": "next",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev"
+  }
+}
