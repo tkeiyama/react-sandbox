@@ -1,5 +1,8 @@
 {
   "name": "react-sandbox",
+  "scripts": {
+    "sb": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 12281 -c .storybook --ci"
+  },
   "devDependencies": {
     "@storybook/addon-essentials": "^6.5.10",
     "@storybook/addon-postcss": "^2.0.0",
