@@ -15,6 +15,7 @@ importers:
       postcss: ^8.4.16
       react: ^18.2.0
       react-dom: ^18.2.0
+      storybook-addon-themes: ^6.1.0
       tailwindcss: ^3.1.8
       typescript: ^4.8.3
     devDependencies:
@@ -29,6 +30,7 @@ importers:
       postcss: 8.4.16
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      storybook-addon-themes: 6.1.0_biqbaboplfbrettd7655fr4n2y
       tailwindcss: 3.1.8_postcss@8.4.16
       typescript: 4.8.3
 
@@ -10475,6 +10477,33 @@ packages:
 
   /store2/2.14.2:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
+    dev: true
+
+  /storybook-addon-themes/6.1.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-ZT8aNgrwFVNEOmOPBLNS0WBacjvMFo/bZ83P8MmsJ3Ewqt0AbmPioghTZccARUn/EQ+LrDxyh2D0QgmLaKo07Q==}
+    peerDependencies:
+      react: '*'
+      svelte: '*'
+      vue: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      '@storybook/addons': 6.5.10_biqbaboplfbrettd7655fr4n2y
+      '@storybook/api': 6.5.10_biqbaboplfbrettd7655fr4n2y
+      '@storybook/components': 6.5.10_biqbaboplfbrettd7655fr4n2y
+      '@storybook/core-events': 6.5.10
+      '@storybook/theming': 6.5.10_biqbaboplfbrettd7655fr4n2y
+      core-js: 3.25.1
+      global: 4.4.0
+      memoizerific: 1.11.3
+      react: 18.2.0
+    transitivePeerDependencies:
+      - react-dom
     dev: true
 
   /stream-browserify/2.0.2:
