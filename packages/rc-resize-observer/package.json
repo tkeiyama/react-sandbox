@@ -1,0 +1,12 @@
+{
+  "name": "rc-resize-observer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "rc-resize-observer": "^1.2.0"
+  }
+}
