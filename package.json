@@ -1,7 +1,8 @@
 {
   "name": "react-sandbox",
   "scripts": {
-    "sb": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 12281 -c .storybook --ci"
+    "sb": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 12281 -c .storybook --ci",
+    "fix": "dprint fmt --verbose"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^6.5.10",
