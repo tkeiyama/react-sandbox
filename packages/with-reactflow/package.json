@@ -1,0 +1,11 @@
+{
+  "name": "with-reactflow",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^12.3.0",
+    "reactflow": "^11.1.0"
+  }
+}
