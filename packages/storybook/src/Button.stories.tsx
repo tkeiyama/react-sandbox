@@ -12,4 +12,5 @@ export const Preview: ComponentStory<typeof Button> = (props) => {
 
 Preview.args = {
   children: "Button",
+  onClick: () => console.log("aaa"),
 };

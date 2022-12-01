@@ -1,3 +1,6 @@
 {
-  "name": "storybook"
+  "name": "storybook",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 12281 -c .storybook --ci"
+  }
 }
