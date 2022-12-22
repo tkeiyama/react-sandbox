@@ -21,8 +21,9 @@ export const Preview = () => {
 export const Wrong = () => {
   return (
     <>
-      <Text as="what-is-going-on">A component</Text>
-      <Text as="span" href="/home">A component</Text>
+      <div>a</div>
+      {/* <Text as="what-is-going-on">A component</Text>
+      <Text as="span" href="/home">A component</Text> */}
     </>
   );
 };
