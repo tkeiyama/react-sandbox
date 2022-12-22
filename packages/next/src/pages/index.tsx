@@ -1,3 +1,6 @@
+import * as V from 'next/package.json'
+
 export default function Index() {
-  return <div>HELLO</div>;
+  console.log(V)
+  return <div>{V.version}</div>;
 }

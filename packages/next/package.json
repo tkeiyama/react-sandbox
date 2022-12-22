@@ -1,7 +1,10 @@
 {
-  "name": "next",
+  "name": "next-v13",
   "license": "MIT",
   "scripts": {
     "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^13.0.7"
   }
 }
