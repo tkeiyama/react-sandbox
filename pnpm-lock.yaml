@@ -92,24 +92,24 @@ importers:
 
   packages/tkeiyama-react-types:
     specifiers:
-      '@tkeiyama/react-types': ^0.0.2
+      '@tkeiyama/react-types': ^0.0.5
       next: ^13.1.1
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@tkeiyama/react-types': 0.0.2
+      '@tkeiyama/react-types': 0.0.5
       next: 13.1.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
 
   packages/tkeiyama-react-utils:
     specifiers:
-      '@tkeiyama/react-utils': ^0.1.5
+      '@tkeiyama/react-utils': ^0.1.6
       next: ^13.1.1
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@tkeiyama/react-utils': 0.1.5
+      '@tkeiyama/react-utils': 0.1.6
       next: 13.1.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -4105,15 +4105,17 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@tkeiyama/react-types/0.0.2:
-    resolution: {integrity: sha512-DnM1ywhFR5SSfIJ0Y/TmqKNktMLGQPmcGdmvjIYL+5K2GNKcqXIRsWRteiK1AAo6ejjQc6uEHD5GzEfM8cCazA==}
+  /@tkeiyama/react-types/0.0.5:
+    resolution: {integrity: sha512-xqzWRdhzOrDByZDy3mz+6He9mIYystuetaAwWJGHXyloBL8dDEPXSPuJSfBXVOQryuE7IAuFeatdbgOOBCVpIw==}
+    dependencies:
+      '@tkeiyama/react-types': 'link:'
     dev: false
 
-  /@tkeiyama/react-utils/0.1.5:
-    resolution: {integrity: sha512-OpEUppq1KPZWXnaXeRovpwHjPdtAX3hXS+VGMxNaG76wX3m7H7tfWDafbQDXjAgLpqtFjHtIWoMpHtf5YG4S1g==}
+  /@tkeiyama/react-utils/0.1.6:
+    resolution: {integrity: sha512-oC58H82G9gmWqE8Zu0OSGVie8XcPdOoewV8PMHWvgni7qLm3MDtxCcZseicHmgkoRpMcrhzHH+cS1+auoJEMjg==}
     dependencies:
       '@tkeiyama/react-theme': 0.0.1
-      '@tkeiyama/react-types': 0.0.2
+      '@tkeiyama/react-types': 0.0.5
     dev: false
 
   /@types/d3-array/3.0.3:
