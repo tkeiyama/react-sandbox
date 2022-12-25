@@ -92,12 +92,12 @@ importers:
 
   packages/tkeiyama-react-utils:
     specifiers:
-      '@tkeiyama/react-utils': ^0.1.3
+      '@tkeiyama/react-utils': ^0.1.4
       next: ^13.1.1
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@tkeiyama/react-utils': 0.1.3
+      '@tkeiyama/react-utils': 0.1.4
       next: 13.1.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -4093,8 +4093,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@tkeiyama/react-utils/0.1.3:
-    resolution: {integrity: sha512-HES9dqxetMxufulPbPFK76t5kThJDwozs9V3vz3b3l0FFvKDs9/l8pfmjGn5eUvbxUZy1X11+ftMzT54xa5Clg==}
+  /@tkeiyama/react-utils/0.1.4:
+    resolution: {integrity: sha512-3M7S6Y7T8OkHh4JEgLup1fyq8Avt/A3to61DPN4FwHyhkUPtyxyHGJ6KM9wJ+3O49XiTcWkf+XROhw33LvnWXg==}
     dependencies:
       '@tkeiyama/react-theme': 0.0.1
     dev: false
