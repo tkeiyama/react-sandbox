@@ -92,12 +92,12 @@ importers:
 
   packages/tkeiyama-react-types:
     specifiers:
-      '@tkeiyama/react-types': ^0.0.1
+      '@tkeiyama/react-types': ^0.0.2
       next: ^13.1.1
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@tkeiyama/react-types': 0.0.1
+      '@tkeiyama/react-types': 0.0.2
       next: 13.1.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -4105,8 +4105,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@tkeiyama/react-types/0.0.1:
-    resolution: {integrity: sha512-Z/zXMZSiFoB6YAXZuWz03tWU0zwkUELVRh0M75o86aYwQAL4n7zlpOYpa7n8w7k9RQrRrzR5Ul5UJKlqXBpRCQ==}
+  /@tkeiyama/react-types/0.0.2:
+    resolution: {integrity: sha512-DnM1ywhFR5SSfIJ0Y/TmqKNktMLGQPmcGdmvjIYL+5K2GNKcqXIRsWRteiK1AAo6ejjQc6uEHD5GzEfM8cCazA==}
     dev: false
 
   /@tkeiyama/react-utils/0.1.4:
